@@ -1,0 +1,6 @@
+packages:
+    - name: login_endpoint
+      functions:
+        - name: login
+          runtime: python:default
+          web: true
